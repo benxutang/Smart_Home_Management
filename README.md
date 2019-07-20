@@ -17,9 +17,6 @@
 
 ## 团队工作安排历史记录
 
-## 个人工作安排历史记录
-详情见personal文件夹内文件
-
 ## 各小组工作完成标准：
 
 - 解决问题的文档记录(.md文件)
@@ -31,6 +28,8 @@
 ### Git的使用可参考
 - [猴子都能懂的git入门](https://backlog.com/git-tutorial/cn/)
 - [简明 Git 教程。浅显易懂，快速入门!](https://github.com/goto456/simple-git)
+- [Markdown语法](https://www.zybuluo.com/mdeditor)
+- [Markdown安装](https://www.zybuluo.com/cmd/)
 
 ### Google编程规范
 - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) 
