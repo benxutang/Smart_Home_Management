@@ -26,7 +26,7 @@
 >* 源码在.md中
 ## 团队工作安排历史记录
 
-- [0724工作计划](/7-24 Schedule.md)
+- [0724工作计划](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/7-24%20Schedule.md)
 
 ## 各小组工作完成标准：
 
