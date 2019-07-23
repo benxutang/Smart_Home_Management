@@ -18,7 +18,7 @@
 - step1: 
 - [x] section LUO YANG: [名称输入](/名称输入.c)
 - step2:
-- [x] section LIANG JIACHENG: [Micro:bit to Receive]
+- [x] section LIANG JIACHENG: [Micro:bit to Receive](/receive.js)
 - step4:
 - [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
 >* 源码在.md中
