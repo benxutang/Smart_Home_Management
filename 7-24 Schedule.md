@@ -2,7 +2,7 @@
 
 标签（空格分隔）： NUSProgramManagement
 
-![](7-24 Schedule.JPG)
+![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/7-24%20Schedule.JPG)
 ---
 
 # 学习内容
