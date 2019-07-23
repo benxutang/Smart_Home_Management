@@ -2,6 +2,7 @@
 
 标签（空格分隔）： NUSProgramManagement
 
+![](./7-24 Schedule.JPG)
 ---
 
 # 学习内容
