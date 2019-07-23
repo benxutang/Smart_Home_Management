@@ -16,9 +16,10 @@
 ## 团队目前成果(Code put in here)
 ### Assignment 1: Game
 - step1: 
-- [x] section LUO YANG [名称输入](/名称输入.c)
-- step2:
-- [x] section TANG BENXU [树莓派启动与通信](/树莓派启动与通信.md)
+- [x] section LUO YANG: [名称输入](/名称输入.c)
+- step4:
+- [x] section TANG BENXU: [树莓派启动与通信](/树莓派启动与通信.md)
+>* 源码在.md中
 ## 团队工作安排历史记录
 
 ## 各小组工作完成标准：
