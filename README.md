@@ -16,15 +16,15 @@
 ## 团队目前成果(Code put in here)
 ### Assignment 1: Game
 - step1: 
-- [x] section LUO YANG: [名称输入](/名称输入.c)
+- [x] section LUO YANG: [名称输入](/down-1.js)
 - step2:
-- [x] section QIN BOWEN: [手势识别](/半成品手势.md)
+- [x] section QIN BOWEN: [手势识别](/ges-1.js)
 - step3:
 - [x] section LIANG JIACHENG: [Micro:bit to Receive](/receive.js)
 - step4:
 - [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
 - step5:
-- [x] section LIANG JIACHENG: Joint adjustment
+- [x] section LIANG JIACHENG: Joint Adjustment
 
 >* 源码在.md中
 ## 团队工作安排历史记录
