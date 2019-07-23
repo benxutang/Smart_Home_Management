@@ -4,7 +4,7 @@
 
 团队指导老师：
 
-- Dr. Tan Wek Kek(NUS)
+- Dr. Tan Wee Kek(NUS)
 
 团队成员：
 
