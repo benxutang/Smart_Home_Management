@@ -23,10 +23,10 @@
 - [x] section LIANG JIACHENG: [Micro:bit to Receive](/receive.js)
 - step4:
 - [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
+>* 源码在.md中
 - step5:
 - [x] section LIANG JIACHENG: Joint Adjustment
 
->* 源码在.md中
 ## 团队工作安排历史记录
 
 - [0724工作计划](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/7-24%20Schedule.md)
