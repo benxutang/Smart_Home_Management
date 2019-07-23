@@ -23,6 +23,9 @@
 - [x] section LIANG JIACHENG: [Micro:bit to Receive](/receive.js)
 - step4:
 - [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
+- step5:
+- [x] section LIANG JIACHENG: Joint adjustment
+
 >* 源码在.md中
 ## 团队工作安排历史记录
 
