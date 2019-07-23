@@ -17,8 +17,10 @@
 ### Assignment 1: Game
 - step1: 
 - [x] section LUO YANG: [名称输入](/名称输入.c)
+- step2:
+- [x] section LIANG JIACHENG: [Micro:bit to Receive]
 - step4:
-- [x] section TANG BENXU: [树莓派启动与通信](/树莓派启动与通信.md)
+- [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
 >* 源码在.md中
 ## 团队工作安排历史记录
 
