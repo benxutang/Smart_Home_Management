@@ -6,9 +6,9 @@
 ---
 
 # 学习内容
-- []section TANG BENXU: Python
-- []section LIANG JIACHENG & LUO YANG: Web service(参考学习PPT)
-- []section QIN BOWEN: Web Access
+- section TANG BENXU: Python
+- section LIANG JIACHENG & LUO YANG: Web service(参考学习PPT)
+- section QIN BOWEN: Web Access
 
 ```gantt
     title Project Schedule
