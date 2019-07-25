@@ -29,6 +29,9 @@
 ### Group Project
 #### section TANG BENXU
 - [Face recoginizer](人脸检测并识别.md)
+#### section LIANG JIACHENG
+#### section QIN BOWEN
+#### SECTION LUO YANG
 
 ## 团队工作安排历史记录
 
