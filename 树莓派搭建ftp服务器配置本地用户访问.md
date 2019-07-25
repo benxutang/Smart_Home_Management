@@ -64,7 +64,7 @@ ftp://ip地址
 
 此时树莓派默认用户：pi基本上可以访问ftp
 
-作者：snowyvalley
-[链接](https://www.jianshu.com/p/42df944d349d)
-来源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+> 作者：snowyvalley
+> [链接](https://www.jianshu.com/p/42df944d349d)
+> 来源：简书
+> 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
