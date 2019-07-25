@@ -26,6 +26,9 @@
 >* 源码在.md中
 - step5:
 - [x] section LIANG JIACHENG: Joint Adjustment
+### Group Project
+#### section TANG BENXU
+- [Face recoginizer](人脸检测并识别.md)
 
 ## 团队工作安排历史记录
 
