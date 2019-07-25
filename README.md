@@ -32,6 +32,7 @@
 #### section LIANG JIACHENG
 #### section QIN BOWEN
 - [FTP](树莓派搭建ftp服务器配置本地用户访问.md)
+- [路由器配置](树莓派热点路由器配置.md)
 #### section LUO YANG
 
 ## 团队工作安排历史记录
