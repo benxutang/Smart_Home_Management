@@ -25,7 +25,7 @@
 - [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
 >* 源码在.md中
 - step5:
-- [] section LIANG JIACHENG: Joint Adjustment
+- [ ] section LIANG JIACHENG: Joint Adjustment
 ### Group Project
 #### section TANG BENXU
 - [Face recoginizer](人脸检测并识别.md)
