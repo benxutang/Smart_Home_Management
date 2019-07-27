@@ -3,6 +3,7 @@
 标签（空格分隔）： NUSProgramManagement
 
 ---
+![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/7-27%20Schedule.JPG)
 
 # section 
 ```gantt
