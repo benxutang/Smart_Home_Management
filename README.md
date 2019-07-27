@@ -4,18 +4,41 @@
 
 团队指导老师：
 
-- Dr. Tan Wek Kek
+- Dr. Tan Wee Kek(NUS)
 
 团队成员：
 
-- 唐本旭
-- 梁嘉城
-- 罗洋
-- 卿博文
+- 唐本旭（哈尔滨工业大学（深圳））
+- 梁嘉城（电子科技大学）
+- 罗洋（电子科技大学）
+- 卿博文（南方科技大学）
 
 ## 团队目前成果(Code put in here)
-- [2-2 树莓派启动与通信](/树莓派启动与通信.md)
+### Assignment 1: Game
+- step1: 
+- [x] section LUO YANG: [名称输入](/down-1.js)
+- step2:
+- [x] section QIN BOWEN: [手势识别](/ges-1.js)
+- step3:
+- [x] section LIANG JIACHENG: [Micro:bit to Receive](/receive.js)
+- step4:
+- [x] section TANG BENXU: [Micro:bit to Display on RPi](/树莓派启动与通信.md)
+>* 源码在.md中
+- step5:
+- [x] section LIANG JIACHENG: Joint Adjustment
+### Group Project
+#### section TANG BENXU
+- [Face recoginizer](人脸检测并识别.md)
+- 访问树莓派中视频，并处理这段视频（对这段视频人脸识别），即[Face recoginizer V2.0](Laptop通过FTP访问树莓派中视频文件.md)
+#### section LIANG JIACHENG
+#### section QIN BOWEN
+- [FTP](树莓派搭建ftp服务器配置本地用户访问.md)
+- [路由器配置](树莓派热点路由器配置.md)
+#### section LUO YANG
+
 ## 团队工作安排历史记录
+
+- [0724工作计划](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/7-24%20Schedule.md)
 
 ## 各小组工作完成标准：
 
