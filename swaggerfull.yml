@@ -1,0 +1,65 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /Environmentfull:
+    get:
+      operationId: "Environmentfull.read"
+      tags:
+        - Enviroment
+      summary: The enviroment data structure supported by the server application
+      description: Read the list of environment
+      responses:
+        200:
+          description: Successfully read enviroment list operation
+          schema:
+            type: "array"
+            items:
+              properties:
+                Tem:
+                  type: "string"
+                Hum:
+                  type: "string"
+                Pre:
+                  type: "string"
+    put:
+      operationId: Environmentfull.create
+      tags:
+        - Enviroment
+      summary: Create a enviroment situation to the list
+      description: Create a enviroment situation to the list
+      parameters:
+        - name: Enviroment
+          in: body
+          description: Enviroment to create
+          required: True
+          schema:
+            type: object
+            properties:
+              Tem:
+                type: string
+                description: Temperture
+              Hum:
+                type: string
+                description: Humidity
+              Pre:
+                type: string
+                description: Pressure
+      responses:
+        201:
+          description: Successfully created in list
+
+
+ 
+
+    
