@@ -114,7 +114,7 @@ function judgeGuesture2222() {
 }
 radio.onReceivedValue(function (receivedString, value) {
     basic.showIcon(IconNames.Heart)
-    if (state == 0 && value == 1) {
+    if (state == 0 && value == 2) {
         name = receivedString
         state = 1
     }
@@ -128,7 +128,7 @@ gesture = -1
 basic.showIcon(IconNames.Heart)
 state = 0
 score = 0
-radio.setGroup(1)
+radio.setGroup(2)
 basic.forever(function () {
     if (state == 0) {
         basic.showString("N")
