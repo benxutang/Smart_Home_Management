@@ -39,7 +39,7 @@
 ## 团队工作安排历史记录
 
 - [0724工作计划](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/7-24%20Schedule.md)
-- [0727工作总结](Project Management/7-27 Review.md)
+- [0727工作总结](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727-Review.md)
 
 ## 各小组工作完成标准：
 
