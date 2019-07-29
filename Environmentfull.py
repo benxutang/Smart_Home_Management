@@ -1,22 +1,28 @@
-
+from datetime import datetime
 
 from flask import make_response, abort
 
+def get_timestamp():
+	return datetime.now().strftime(('%Y-%m-%d %H:%M:%S'))
+	
 ENVIRONMENT = {
     'One': {
         'Tem': '30',
         'Hum': '25',
-		'Pre': '1'
+		'Pre': '1',
+		'Timestamp': get_timestamp()
     },
 	'Two': {
         'Tem': '25',
         'Hum': '70',
-		'Pre': '2'
+		'Pre': '2',
+		'Timestamp': get_timestamp()
     },
 	'Three': {
         'Tem': '28',
         'Hum': '',
-		'Pre': '1'
+		'Pre': '1',
+		'Timestamp': get_timestamp()
     },
 }
 
@@ -44,7 +50,7 @@ def create(Enviroment):
 			"Hum": Hum,
 			"Pre": Pre,
 			"Tem": Tem,
-			'timestamp': get_timestamp()
+			'Timestamp': get_timestamp()
 		}
 		return make_response('successfully created')
 

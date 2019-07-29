@@ -32,6 +32,8 @@ paths:
                   type: "string"
                 Pre:
                   type: "string"
+                Timestamp:
+                  type: "string"
     put:
       operationId: Environmentfull.create
       tags:
@@ -55,8 +57,6 @@ paths:
               Pre:
                 type: string
                 description: Pressure
-              timestamp:
-                type: string
       responses:
         201:
           description: Successfully created in list
