@@ -43,7 +43,8 @@ def create(Enviroment):
 		ENVIRONMENT[Tem] = {
 			"Hum": Hum,
 			"Pre": Pre,
-			"Tem": Tem
+			"Tem": Tem,
+			'timestamp': get_timestamp()
 		}
 		return make_response('successfully created')
 

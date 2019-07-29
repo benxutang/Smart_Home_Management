@@ -55,6 +55,8 @@ paths:
               Pre:
                 type: string
                 description: Pressure
+              timestamp:
+                type: string
       responses:
         201:
           description: Successfully created in list
