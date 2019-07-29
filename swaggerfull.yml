@@ -62,6 +62,44 @@ paths:
           description: Successfully created in list
 
 
- 
+
+  /Light:
+    get:
+      operationId: "Light.read"
+      tags:
+        - Light
+      summary: The Light data structure supported by the server application
+      description: Read the list of Light
+      responses:
+        200:
+          description: Successfully read Light list operation
+          schema:
+            type: "array"
+            items:
+              properties:
+                Light:
+                  type: "string"
+                Timestamp:
+                  type: "string"
+    put:
+      operationId: Light.create
+      tags:
+        - Light
+      summary: Create a Light situation to the list
+      description: Create a Light situation to the list
+      parameters:
+        - name: Light
+          in: body
+          description: Light to create
+          required: True
+          schema:
+            type: object
+            properties:
+              Light:
+                type: string
+                description: Light
+      responses:
+        201:
+          description: Successfully created in list
 
     
