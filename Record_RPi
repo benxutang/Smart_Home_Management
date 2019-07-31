@@ -2,20 +2,23 @@ from picamera import PiCamera
 from time import sleep
 import serial
 import os
+from Myservo import Myservo
 
 check = 1
 loop = 0
 ser = serial.Serial(port='/dev/ttyACM1',baudrate=115200,timeout=1)
+servopin = 17
 
 while True:
           if check == 1:
-                    print('Listening on /dev/ttyACM0...')
+                    print('Listening on /dev/ttyACM1...')
                     check = 0
                     
           msg = ser.readline()
           smsg = msg.decode('utf-8').strip()
-          if len(smsg)>0:
+          if smsg is '1':
               
+                    check = 1
                     result1 = os.popen('rm -rf /home/pi/video.h264')
                     print(result1.read())
                     result2 = os.popen('rm -rf /home/pi/video.mp4')
@@ -38,4 +41,24 @@ while True:
                     result3 = os.popen('MP4Box -add video.h264 video.mp4')
                     print(result3.read())
                     print('Converted')
+                    
+                    servopin = 17
+
+                    ser2 = serial.Serial(port='/dev/ttyACM1',baudrate=115200,timeout=1)
+
+                    while True:
+                                        
+                              msg2 = ser2.readline()
+                              smsg2 = msg2.decode('utf-8').strip()
+                              if len(smsg2)>0 and smsg2 != '1':
+                                  
+                                  #print(smsg2)
+                                  if smsg2 is '2':
+                                      Myservo(servopin)
+                                      print('Door is open')
+                                      break
+                                  if smsg2 is '3':
+                                      print('Locked')
+                                      break
+                                      
 
