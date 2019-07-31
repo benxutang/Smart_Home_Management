@@ -2,7 +2,7 @@ from picamera import PiCamera
 from time import sleep
 import serial
 import os
-from Myservo import Myservo
+from Myservo2 import Myservo
 
 check = 1
 loop = 0
@@ -42,7 +42,8 @@ while True:
                     print(result3.read())
                     print('Converted')
                     
-                    servopin = 17
+                    servopin1 = 17
+                    servopin2 = 27
 
                     ser2 = serial.Serial(port='/dev/ttyACM1',baudrate=115200,timeout=1)
 
@@ -54,7 +55,7 @@ while True:
                                   
                                   #print(smsg2)
                                   if smsg2 is '2':
-                                      Myservo(servopin)
+                                      Myservo(servopin1, servopin2)
                                       print('Door is open')
                                       break
                                   if smsg2 is '3':
