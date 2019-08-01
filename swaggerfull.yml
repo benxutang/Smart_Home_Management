@@ -101,5 +101,46 @@ paths:
       responses:
         201:
           description: Successfully created in list
+          
+          
+  /Fan:
+    get:
+      operationId: "Fan.read"
+      tags:
+        - Fan
+      summary: The Fan data structure supported by the server application
+      description: Read the list of Fan
+      responses:
+        200:
+          description: Successfully read Fan list operation
+          schema:
+            type: "array"
+            items:
+              properties:
+                Speed:
+                  type: "string"
+                Timestamp:
+                  type: "string"
+    put:
+      operationId: Fan.create
+      tags:
+        - Fan
+      summary: Create a Fan situation to the list
+      description: Create a Fan situation to the list
+      parameters:
+        - name: Fan
+          in: body
+          description: Fan to create
+          required: True
+          schema:
+            type: object
+            properties:
+              Speed:
+                type: string
+                description: Fan Speed
+      responses:
+        201:
+          description: Successfully created in list      
+          
 
     
