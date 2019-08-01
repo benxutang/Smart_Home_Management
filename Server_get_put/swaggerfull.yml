@@ -76,7 +76,7 @@ paths:
             type: "array"
             items:
               properties:
-                Light:
+                Ligcon:
                   type: "string"
                 State:
                   type: "string"
@@ -96,7 +96,7 @@ paths:
           schema:
             type: object
             properties:
-              Light:
+              Ligcon:
                 type: string
                 description: Light Light
               State:

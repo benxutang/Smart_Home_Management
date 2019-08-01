@@ -7,23 +7,12 @@ def get_timestamp():
 	
 ENVIRONMENT = {
     'One': {
-        'Tem': '30',
-        'Hum': '25',
-		'Pre': '1',
+        'Tem': 'test',
+        'Hum': 'test',
+		'Pre': 'test',
 		'Timestamp': get_timestamp()
     },
-	'Two': {
-        'Tem': '25',
-        'Hum': '70',
-		'Pre': '2',
-		'Timestamp': get_timestamp()
-    },
-	'Three': {
-        'Tem': '28',
-        'Hum': '',
-		'Pre': '1',
-		'Timestamp': get_timestamp()
-    },
+
 }
 
 
@@ -44,16 +33,17 @@ def create(Enviroment):
 	Hum = Enviroment.get("Hum", None)
 	Pre = Enviroment.get("Pre", None)
 
-	# Does the person exist already?
-	if Tem not in ENVIRONMENT and Tem is not None:
-		ENVIRONMENT[Tem] = {
-			"Hum": Hum,
-			"Pre": Pre,
-			"Tem": Tem,
-			'Timestamp': get_timestamp()
-		}
-		return make_response('successfully created')
 
-	# Otherwise, they exist, that's an error
-	else:
-		abort(406,'already exists')
+	ENVIRONMENT[Tem] = {
+		"Hum": Hum,
+		"Pre": Pre,
+		"Tem": Tem,
+		'Timestamp': get_timestamp()
+	}
+	return make_response('successfully created')
+
+
+
+
+
+

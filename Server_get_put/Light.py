@@ -5,20 +5,10 @@ from flask import make_response, abort
 def get_timestamp():
 	return datetime.now().strftime(('%Y-%m-%d %H:%M:%S'))
 	
-STATE = {
+LIGHT = {
     'One': {
-        'Light': '0',
+        'Ligcon': 'test',
 		'State': '1',
-		'Timestamp': get_timestamp()
-    },
-	'Two': {
-        'Light': '0.5',
-		'State': '2',
-		'Timestamp': get_timestamp()
-    },
-	'Three': {
-        'Light': '1',
-		'State': '3',
 		'Timestamp': get_timestamp()
     },
 }
@@ -33,10 +23,10 @@ def read():
 
 def create(Light):
 
-	Light = Light.get("Light", None)
+	Ligcon = Light.get("Ligcon", None)
 	State = Light.get("State", None)
-	STATE[Light] = {
-		"Light": Light,
+	LIGHT[Ligcon] = {
+		"Ligcon": Ligcon,
 		"State": State,
 		'Timestamp': get_timestamp()
 	}	

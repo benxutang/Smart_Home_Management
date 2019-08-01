@@ -11,16 +11,6 @@ FAN = {
 		'State': '1',
 		'Timestamp': get_timestamp()
     },
-	'Two': {
-        'Speed': 'test',
-		'State': '1',
-		'Timestamp': get_timestamp()
-    },
-	'Three': {
-        'Speed': 'test',
-		'State': '1',
-		'Timestamp': get_timestamp()
-    },
 }
 
 
