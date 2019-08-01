@@ -31,15 +31,11 @@ def read():
 def create(Light):
 
 	Light = Light.get("Light", None)
+	LIGHT[Light] = {
+		"Light": Light,
+		'Timestamp': get_timestamp()
+	}	
 
-	# Does the person exist already?
-	if Light not in LIGHT and Light is not None:
-		LIGHT[Light] = {
-			"Light": Light,
-			'Timestamp': get_timestamp()
-		}
-		return make_response('successfully created')
 
-	# Otherwise, they exist, that's an error
-	else:
-		abort(406,'already exists')
+	return make_response('successfully created')
+
