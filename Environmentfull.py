@@ -44,20 +44,10 @@ def create(Enviroment):
 	Hum = Enviroment.get("Hum", None)
 	Pre = Enviroment.get("Pre", None)
 
-	# Does the person exist already?
-	if Tem not in ENVIRONMENT and Tem is not None:
-		ENVIRONMENT[Tem] = {
+	ENVIRONMENT[Tem] = {
 			"Hum": Hum,
 			"Pre": Pre,
 			"Tem": Tem,
 			'Timestamp': get_timestamp()
 		}
-		return make_response('successfully created')
-
-	# Otherwise, they exist, that's an error
-	else:
-		abort(406,'already exists')
-
-
-
-
+	return make_response('successfully created')

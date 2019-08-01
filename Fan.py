@@ -7,15 +7,18 @@ def get_timestamp():
 	
 FAN = {
     'One': {
-        'Speed': '1',
+        'Speed': 'test',
+		'State': '1',
 		'Timestamp': get_timestamp()
     },
 	'Two': {
-        'Speed': '2',
+        'Speed': 'test',
+		'State': '1',
 		'Timestamp': get_timestamp()
     },
 	'Three': {
-        'Speed': '3',
+        'Speed': 'test',
+		'State': '1',
 		'Timestamp': get_timestamp()
     },
 }
@@ -31,8 +34,10 @@ def read():
 def create(Fan):
 
 	Speed = Fan.get("Speed", None)
+	State = Fan.get("State", None)
 	FAN[Speed] = {
 			"Speed": Speed,
+			"State": State,
 			'Timestamp': get_timestamp()
 		}
 	return make_response('successfully created')
