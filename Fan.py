@@ -30,16 +30,13 @@ def read():
 
 def create(Fan):
 
-	Fan = Fan.get("Fan", None)
-
-
-	if Speed not in FAN and Speed is not None:
-		FAN[Speed] = {
+	Speed = Fan.get("Speed", None)
+	FAN[Speed] = {
 			"Speed": Speed,
 			'Timestamp': get_timestamp()
 		}
-		return make_response('successfully created')
+	return make_response('successfully created')
 
-	# Otherwise, they exist, that's an error
-	else:
-		abort(406,'already exists')
+
+
+		
