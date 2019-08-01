@@ -31,7 +31,7 @@ def bleUartReceiveCallback(data):
     a=int(GPIO.input(18))
     if a>0:
         if state>=2:
-            state=0
+            state=1
         else:
             state=state+1
         print("sb")

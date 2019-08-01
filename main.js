@@ -33,6 +33,6 @@ wss.on('connection', function(wsConnect) {
     });
 });
 
-var conn = new WebSocket('wss://nussh.happydoudou.xyz:8000/');
-conn.onmessage = function(e){ console.log(e.data); };
-conn.onopen = () => conn.send('message');
+// var conn = new WebSocket('wss://nussh.happydoudou.xyz:8000/');
+// conn.onmessage = function(e){ console.log(e.data); };
+// conn.onopen = () => conn.send('message');
