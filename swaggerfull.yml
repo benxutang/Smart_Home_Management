@@ -62,7 +62,6 @@ paths:
           description: Successfully created in list
 
 
-
   /Light:
     get:
       operationId: "Light.read"
@@ -78,6 +77,8 @@ paths:
             items:
               properties:
                 Light:
+                  type: "string"
+                State:
                   type: "string"
                 Timestamp:
                   type: "string"
@@ -97,10 +98,13 @@ paths:
             properties:
               Light:
                 type: string
-                description: Light
+                description: Light Light
+              State:
+                type: string
+                description: Light State
       responses:
         201:
-          description: Successfully created in list
+          description: Successfully created in list  
           
           
   /Fan:
@@ -118,6 +122,8 @@ paths:
             items:
               properties:
                 Speed:
+                  type: "string"
+                State:
                   type: "string"
                 Timestamp:
                   type: "string"
@@ -138,6 +144,9 @@ paths:
               Speed:
                 type: string
                 description: Fan Speed
+              State:
+                type: string
+                description: Fan State
       responses:
         201:
           description: Successfully created in list      

@@ -7,18 +7,18 @@ def get_timestamp():
 	
 LIGHT = {
     'One': {
-        'Light': '0',
-		'State': '0',
+        'Light': 'test',
+		'State': '1',
 		'Timestamp': get_timestamp()
     },
 	'Two': {
-        'Light': '0.5',
-		'State': '0',
+        'Light': 'test',
+		'State': '1',
 		'Timestamp': get_timestamp()
     },
 	'Three': {
-        'Light': '1',
-		'State': '0',
+        'Light': 'test',
+		'State': '1',
 		'Timestamp': get_timestamp()
     },
 }
@@ -36,11 +36,12 @@ def create(Light):
 	Light = Light.get("Light", None)
 	State = Light.get("State", None)
 	LIGHT[Light] = {
-		"Light": Light,
-		'State': State,
-		'Timestamp': get_timestamp()
-	}	
-
-
+			"Light": Light,
+			"State": State,
+			'Timestamp': get_timestamp()
+		}
 	return make_response('successfully created')
 
+
+
+		
