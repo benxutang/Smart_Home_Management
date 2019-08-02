@@ -10,24 +10,60 @@ from gpiozero import MCP3008
 from gpiozero import PWMLED
 import RPi.GPIO as GPIO
 import RPi.GPIO
+import urllib.request
+import json
+import ssl
 
-
+context1 = ssl._create_unverified_context()
     
 RPi.GPIO.cleanup()
 RPi.GPIO.setmode(RPi.GPIO.BOARD)
-RPi.GPIO.setup(38, RPi.GPIO.OUT)
+RPi.GPIO.setup(35, RPi.GPIO.OUT)
 GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-p = GPIO.PWM(38, 1000)
+p = GPIO.PWM(35, 500)
 p.start(0)
 
 pot = MCP3008(0)
 
-
-
+def http_get():
+    url='https://nussh.happydoudou.xyz:5000/api/Light'
+    print('1')
+    response = urllib.request.urlopen(url,context=context1)
+    print('2')
+    return response.read()
 
 def bleUartReceiveCallback(data):
+
     global state
-    print(state)
+
+    ret = http_get()
+    linkdata=json.loads(ret.decode('utf-8'))
+    timelink="0000-00-00 00:00:00"
+    Ligcon=[]
+    State1=[]
+    Timestamp=[]
+
+    index=0
+
+    for dict_data in linkdata:
+        Ligcon.append(dict_data['Ligcon'])
+        State1.append(dict_data['State'])
+        Timestamp.append(dict_data['Timestamp'])
+        
+    for i ,value in enumerate(Timestamp):
+        if value>timelink:
+            index=i
+            timelink=value
+ 
+    print(Ligcon[index]+'<<<<<<'+timelink+'<<<<'+State1[index])
+    if State1[index]=='0':
+        state=0
+        Lightin=int(Ligcon[index])
+    elif State1[index]=='1' and state==0:
+        state=1
+
+  
+
     a=int(GPIO.input(18))
     if a>0:
         if state>=2:
@@ -37,7 +73,7 @@ def bleUartReceiveCallback(data):
         print("sb")
 
     if state==0:
-        p.ChangeDutyCycle(0)
+        p.ChangeDutyCycle(Lightin)
     elif state==1:
         print('Received data = {}'.format(data))
         data = data.strip()[1:]
@@ -99,9 +135,6 @@ except KeyboardInterrupt:
     
     print('********** END')
     
-except Error as err:
-
-    print('********** ERROR: {}'.format(err))
 
 finally:
 

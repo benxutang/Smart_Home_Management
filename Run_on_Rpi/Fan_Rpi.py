@@ -1,19 +1,25 @@
+# -*- coding: UTF-8 -*-
+import datetime
+from threading import Timer
 import RPi.GPIO as GPIO
 import time
 import signal
 from Adafruit_BME280 import *
-import time
+
 from gpiozero import MCP3008
+
 import urllib2
-import urllib.request
 import json
 import ssl
-
+degrees=0
+pascals=0
+hectopascals=0
+humidity=0
 context = ssl._create_unverified_context()
 
 def http_get():
-    url='https://nussh.happydoudou.xyz:5000/Fan'
-    response = urllib.request.urlopen(url,context=context)
+    url='https://nussh.happydoudou.xyz:5000/api/Fan'
+    response = urllib2.urlopen(url,context=context)
     return response.read()
 
 def http_put():
@@ -56,12 +62,13 @@ sensor = BME280(t_mode=BME280_OSAMPLE_8, p_mode=BME280_OSAMPLE_8, h_mode=BME280_
 
 def TimeFan():
     #sensor = BME280(t_mode=BME280_OSAMPLE_8, p_mode=BME280_OSAMPLE_8, h_mode=BME280_OSAMPLE_8)
+    global degrees,pascals,hectopascals,humidity
     degrees = sensor.read_temperature()
     pascals = sensor.read_pressure()
     hectopascals = pascals / 100
     humidity = sensor.read_humidity()
 
-    time.sleep(0.1)
+    #time.sleep(0.1)
     print ('Temp      = {0:0.3f} deg C'.format(degrees))
     #print ('Pressure  = {0:0.2f} hPa'.format(hectopascals))a
     #print ('Humidity  = {0:0.2f} %'.format(humidity))
@@ -96,8 +103,10 @@ def TimeFan():
 
     if State1[index]=='0':
         state=0
-        Fansp=int(Speed)
-
+        Fansp=int(Speed[index])
+    elif State1[index]=='1' and state==0:
+        state=1
+        
     a=int(GPIO.input(23))
     if a>0:
         print("sb")
@@ -113,7 +122,7 @@ def TimeFan():
     else:
         print(int(pot.value*20)*5)
         p.ChangeDutyCycle(int(pot.value*20)*5)
-        time.sleep(0.1)       
+
     
         #启动定时器任务，每一秒执行一次
     Timer(1, TimeFan).start()

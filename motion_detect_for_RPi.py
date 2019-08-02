@@ -12,7 +12,21 @@ import datetime
 import imutils
 import time
 import cv2
-import numpy as np 
+import numpy as np
+import asyncio
+import websockets
+from socket import gaierror
+import ssl
+
+
+context = ssl._create_unverified_context()
+async def alarm():
+    uri = "wss://nussh.happydoudou.xyz:8000"
+    async with websockets.connect(uri,ssl=context) as websocket:
+        await websocket.send("Alarm")
+        print("Alarm")
+        revci = await websocket.recv()
+        print(f"< {revci}")
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
@@ -93,7 +107,7 @@ while True:
             (x, y, w, h) = cv2.boundingRect(c)
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
             text = "Occupied"
-            
+            asyncio.get_event_loop().run_until_complete(alarm())
         	# draw the text and timestamp on the frame
             
         cv2.putText(frame, "Room Status: {}".format(text), (10, 20),
