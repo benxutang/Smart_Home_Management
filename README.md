@@ -22,7 +22,7 @@
 
 * [Bulit Websocket For:'Alarm'](/Websocket)
 * [Built RESTful Sevice(Server) For:'GET-PUT'](/Server_get_put)
-* [Built Mini-Program For:'Remote Control'](/Mini-Program)
+* [Built Mini-Program For:'Remote Control'](https://github.com/JACKPURCELL/NUSSmartHome)
 * [Rpi Network Link For:RPI PUT&GET](/Run_on_Rpi)
 * Home System(Rpi), Server, Mini-Program Joint Adjustment
 
@@ -32,7 +32,7 @@
 #### section LUO YANG
 
 * [Built RESTful Sevice(Server) For:'GET-PUT'](/Server_get_put)
-* [Build The Dream House](/1.jpg)
+* ![Build The Dream House](1.jpg)
 
 ###Assignment 1: Game
 
