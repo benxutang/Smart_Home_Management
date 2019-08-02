@@ -31,6 +31,9 @@
 - [Face recoginizer](人脸检测并识别.md)
 - 访问树莓派中视频，并处理这段视频（对这段视频人脸识别），即[Face recoginizer V2.0](Laptop通过FTP访问树莓派中视频文件.md)
 #### section LIANG JIACHENG
+
+* [Bulit Websocket]<
+
 #### section QIN BOWEN
 - [FTP](树莓派搭建ftp服务器配置本地用户访问.md)
 - [路由器配置](树莓派热点路由器配置.md)
