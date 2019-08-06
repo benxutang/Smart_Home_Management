@@ -99,7 +99,3 @@
   不需要文档化的注释统一使用普通的注释风格，即2斜杠//
   
   这样又同时符合了Google C++风格（Google推荐/*…*/和//2种，上面的三种方式是从这2种演变而来）
-  
-### Technical Assistance
-* Dr. Tan Wee Kek(NUS)
-* [ray26](https://github.com/ray26)
