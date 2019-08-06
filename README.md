@@ -18,7 +18,7 @@
 #### section TANG BENXU
 - 第一步，整出人脸识别的基本框架[Face recoginizer V1.0](人脸检测并识别.md)
 - 访问树莓派中视频，并处理这段视频（对这段视频人脸识别），即[Face recoginizer V2.0](Laptop通过FTP访问树莓派中视频文件.md)
-- 最终的成果：按钮通过Breadboard接Micro:bit A，A通过USB连接树莓派；另一个Micro:bit B连接电脑段，负责接收A传输的信息(message transmitted by radio)同时将这个信息发送到电脑(message transmitted by USB UART)。若按钮按下，树莓派接收到信息就开始录像，电脑接收到信息后访问树莓派录制的视频并进行处理，即做人脸识别。如果识别出是注册过的人脸，则通过Micro:bit A 和 B 向树莓派发送True，否则发送Fasle，从而决定是否开门(通过servo模拟门的开关)
+- 最终的成果：按钮通过Breadboard接Micro:bit A，A通过USB连接树莓派；另一个Micro:bit B连接电脑段，负责接收A传输的信息(message transmitted by radio)同时将这个信息发送到电脑(message transmitted by USB UART)。若按钮按下，树莓派接收到信息就开始录像，电脑接收到信息后访问树莓派录制的视频并进行处理，即做人脸识别。如果识别出是注册过的人脸，则通过Micro:bit A 和 B 向树莓派发送True，否则发送Fasle，从而决定是否开门(通过servo模拟门的开关)。各部分代码如下：
 > [Micro:bit A部分代码](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Face%20ID%20Final%20Version/button_link.js)
 
 > [Micro:bit B部分代码](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Face%20ID%20Final%20Version/Laptop_edge.js)
