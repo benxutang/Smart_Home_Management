@@ -103,7 +103,7 @@ conn.onmessage = function(e){ console.log(e.data); };
 conn.onopen = () => conn.send('message');
 ```
 
-### 微信端配置
+## 微信端配置
 
 ```javascript
 //index.js
