@@ -38,9 +38,9 @@
 #### section LUO YANG
 
 * [Built RESTful Sevice(Server) For:'GET-PUT'](/Server_get_put)
-* ![Build The Dream House](1.jpg)
+* Build The Dream House![Build The Dream House](1.jpg)
 
-###Assignment 1: Game
+### Assignment 1: Game
 
 - step1: 
 - [x] section LUO YANG: [名称输入](/down-1.js)
@@ -89,3 +89,7 @@
   不需要文档化的注释统一使用普通的注释风格，即2斜杠//
   
   这样又同时符合了Google C++风格（Google推荐/*…*/和//2种，上面的三种方式是从这2种演变而来）
+  
+### Technical Assistance
+* Dr. Tan Wee Kek(NUS)
+* [ray26](https://github.com/ray26)
