@@ -1,0 +1,38 @@
+import RPi.GPIO as GPIO
+import time
+import signal
+
+def Myservo(servopin1, servopin2):
+
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(servopin1, GPIO.OUT, initial = False)
+    GPIO.setup(servopin2, GPIO.OUT, initial = False)
+    s1 = GPIO.PWM(servopin1, 50)
+    s2 = GPIO.PWM(servopin2, 50)
+    s1.start(0)
+    s2.start(0)
+    s1.ChangeDutyCycle(8.2)
+    s2.ChangeDutyCycle(6.2)
+    time.sleep(0.5)
+    s1.stop()
+    s2.stop()
+    GPIO.cleanup()
+
+    time.sleep(3)
+
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(servopin1, GPIO.OUT, initial = False)
+    GPIO.setup(servopin2, GPIO.OUT, initial = False)
+    s1 = GPIO.PWM(servopin1, 50)
+    s2 = GPIO.PWM(servopin2, 50)
+
+    s1.start(0)
+    s2.start(0)
+    s1.ChangeDutyCycle(5)
+    s2.ChangeDutyCycle(10)
+    time.sleep(0.3)
+    s1.stop()
+    s2.stop()
+    GPIO.cleanup()
+    
+Myservo(17, 27)

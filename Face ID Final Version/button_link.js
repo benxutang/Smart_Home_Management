@@ -1,0 +1,16 @@
+input.onButtonPressed(Button.A, function () {
+    serial.writeNumber(1)
+    basic.showIcon(IconNames.Yes)
+    basic.pause(2100)
+    radio.sendValue("TX", 1)
+    basic.showIcon(IconNames.Happy)
+})
+radio.onReceivedString(function (receivedString) {
+    serial.writeString(receivedString)
+    basic.showString("T")
+    basic.pause(1000)
+    basic.showString(receivedString)
+})
+basic.showIcon(IconNames.Happy)
+radio.setGroup(100)
+serial.redirectToUSB()
