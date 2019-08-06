@@ -22,7 +22,7 @@
 
 * [Bulit Websocket For:'Alarm'](/Websocket)
 
-* [Document](/Websocket/小程序物联网警报Websocket简单服务器搭建(2019 NUS SOC SUMMER WORKSHOP).md)
+* [Document](Websocket/小程序物联网警报Websocket简单服务器搭建(2019 NUS SOC SUMMER WORKSHOP).md)
 
 * [Built RESTful Sevice(Server) For:'GET-PUT'](/Server_get_put)
 
