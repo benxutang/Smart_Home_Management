@@ -33,7 +33,7 @@
 * [Bulit Websocket For:'Alarm'](/Websocket)      [小程序物联网警报Websocket简单服务器搭建](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Websocket/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%89%A9%E8%81%94%E7%BD%91%E8%AD%A6%E6%8A%A5Websocket%E7%AE%80%E5%8D%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA.md)
 * [Built RESTful Sevice(Server) For:'GET-PUT'](/Server_get_put)      [RESTFUL SERVICE 的搭建 & 服务端JSON处理](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Server_get_put/RESTFUL%20SERVICE%20%E7%9A%84%E6%90%AD%E5%BB%BA%20%26%20%E6%9C%8D%E5%8A%A1%E7%AB%AFJSON%E5%A4%84%E7%90%86.md)
 * [Built Mini-Program For:'Remote Control'](https://github.com/JACKPURCELL/NUSSmartHome)
-* [Rpi Network Link For:RPI PUT&GET](/Run_on_Rpi)      [RESTFUL SERVICE 的搭建 & 服务端JSON处理](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Server_get_put/RESTFUL%20SERVICE%20%E7%9A%84%E6%90%AD%E5%BB%BA%20%26%20%E6%9C%8D%E5%8A%A1%E7%AB%AFJSON%E5%A4%84%E7%90%86.md)
+* [Rpi Network Link For:RPI PUT&GET](/Run_on_Rpi)    和    [RESTFUL SERVICE 的搭建 & 服务端JSON处理](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Server_get_put/RESTFUL%20SERVICE%20%E7%9A%84%E6%90%AD%E5%BB%BA%20%26%20%E6%9C%8D%E5%8A%A1%E7%AB%AFJSON%E5%A4%84%E7%90%86.md)
 * Home System(Rpi), Server, Mini-Program Joint Adjustment
 
 #### section QIN BOWEN
