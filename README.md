@@ -39,6 +39,7 @@
 #### section QIN BOWEN
 - [FTP](树莓派搭建ftp服务器配置本地用户访问.md)
 - [路由器配置](树莓派热点路由器配置.md)
+- [蓝牙UART]()读取传感器数据，树莓派上处理数据，控制灯泡亮度
 #### section LUO YANG
 
 * [Built RESTful Sevice(Server) For:'GET-PUT'](/Server_get_put)
