@@ -62,7 +62,20 @@
 - step5:
 - [x] section LIANG JIACHENG: [Joint Adjustment](https://github.com/TANGBEN7/Smart_Home_Management/tree/master/Assignment)
 
-### 
+## Our Final Showcase
+### Quick View
+Our mission, is to make our house a more comfortable and safety place to live in. We have smart IoT LEDs and Air-con/Fan, and, a house security system based on computer version.
+
+### Parts
+- [x] Mini Program on Mobile
+- [x] Front door with Face ID
+- [x] Alarm with motion detect
+- [x] Auto-adjusted smart LED and fan
+
+### Why We are Special
+- Our smart home is a ture IoT system, which is able to access to the Internet, instead of the local area network
+- Face ID and Motion detection programs are all based on open source platform like OpenCV, codes are written by ourselves
+- We built a beautifully decorated paperboard house to do the simulation
 
 ## 团队工作安排历史记录
 
