@@ -21,7 +21,7 @@
 
 - The idea map
 
-![](Project Management/Sequence.JPG)
+![Sequence](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/Sequence.JPG)
 
 - Sourse code on RPi, laptop and 2 microbits.
 
