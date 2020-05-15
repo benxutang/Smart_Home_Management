@@ -85,7 +85,7 @@
 `Sorce codes are included in the .md files(hyperlink)`
 
 
-# Our Final Showcase
+# [Our Final Showcase](https://github.com/TANGBEN7/Smart_Home_Management/tree/master/Final%20Showcase)
 ## Quick View
 Our mission is to make our house a more comfortable and safe place to live in. We have smart IoT LEDs and Air-con/Fan, and a house security system based on computer version.
 
