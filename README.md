@@ -107,7 +107,7 @@ Our mission is to make our house a more comfortable and safe place to live in. W
 We use markdown to write
 
 - [x] Team Plan & Review
-- [x] Grntt Chart
+- [x] Gantt Chart
 - [x] Documentation
 
 Useful links
