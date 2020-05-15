@@ -1,23 +1,17 @@
-# Readme
-
-标签（空格分隔）： NUSProgramManagement
-
----
-
-# About Smart Home 关于Smart Home 
+# About Smart Home  关于Smart Home 
 
 Team Advisor 团队指导老师：
 
 - Dr. Tan Wee Kek(NUS)
 
-Team Member 团队成员：
+# Team Member  团队成员：
 
 - TANG BENXU 唐本旭（哈尔滨工业大学（深圳））
 - LIANG JIACHENG 梁嘉城（电子科技大学）
 - LUO YANG 罗洋（电子科技大学）
 - QING BOWEN 卿博文（南方科技大学）
 
-# DONE 团队目前成果
+# DONE  团队目前成果
 ## Group Project
 ### **section TANG BENXU**
 - Research process and documentations (documentations are .md files. `Check out the hyperlink`)
@@ -84,27 +78,27 @@ Team Member 团队成员：
 
 # Our Final Showcase
 ## Quick View
-Our mission, is to make our house a more comfortable and safety place to live in. We have smart IoT LEDs and Air-con/Fan, and, a house security system based on computer version.
+Our mission is to make our house a more comfortable and safe place to live in. We have smart IoT LEDs and Air-con/Fan, and a house security system based on computer version.
 
 ## Parts
-- [x] Mini Program on Mobile
+- [x] Mini program on mobile to control things in the house remotely
 - [x] Front door with Face ID
 - [x] Alarm with motion detect
 - [x] Auto-adjusted smart LED and fan
 
 ## Why We are Special
 - Our smart home is a ture IoT system, which is able to access to the Internet, instead of the local area network
-- Face ID and Motion detection programs are all based on open source platform like OpenCV, codes are written by ourselves
+- Face ID and Motion detection programs are all based on open source library including OpenCV, codes are written by ourselves
 - We built a beautifully decorated paperboard house to do the simulation
 
-# History Summary of Teamwork 团队工作安排历史记录
+# History Summary of Teamwork  团队工作安排历史记录
 
 - [0724 Plan](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/7-24%20Schedule.md)
 - [0724 Review](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727-Review.md)
 - [0727 Plan](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727%20Schedule.md)
 - [0730 Review](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0730%20Review.md)
 
-# 其他注意事项
+# Others  其他注意事项
 ## Markdown
 We use markdown to write
 
