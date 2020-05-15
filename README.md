@@ -19,7 +19,7 @@
 - [x] Step 2，Access video which was recorded by RPi (and stored on RPi) through File Transfer Protocol(FTP) [Face recoginizer V2.0](Laptop通过FTP访问树莓派中视频文件.md)
 - [x] Finally, the door (powerd by the servo) will open for the one whose face was registered before.
 - The idea map
-![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/Sequence.JPG)
+![](Project Management/Sequence.jpg)
 
 - Sourse code on RPi, laptop and 2 microbits.
 
