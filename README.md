@@ -11,6 +11,13 @@
 - LUO YANG 罗洋（电子科技大学）
 - QING BOWEN 卿博文（南方科技大学）
 
+# History Summary of Teamwork
+
+- [0724 Schedule](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/7-24%20Schedule.md)
+- [0724 Review](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727-Review.md)
+- [0727 Schedule](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727%20Schedule.md)
+- [0730 Review](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0730%20Review.md)
+
 # DONE
 ## Group Project
 ### **section TANG BENXU**
@@ -82,6 +89,8 @@
 ## Quick View
 Our mission is to make our house a more comfortable and safe place to live in. We have smart IoT LEDs and Air-con/Fan, and a house security system based on computer version.
 
+![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Final%20Showcase/img/01_small.JPG)
+
 ## Parts
 - [x] Mini program on mobile to control things in the house remotely
 - [x] Front door with Face ID
@@ -92,13 +101,6 @@ Our mission is to make our house a more comfortable and safe place to live in. W
 - Our smart home is a ture IoT system, which is able to access to the Internet, instead of the local area network
 - Face ID and Motion detection programs are all based on open source library including OpenCV, codes are written by ourselves
 - We built a beautifully decorated paperboard house to do the simulation
-
-# History Summary of Teamwork
-
-- [0724 Plan](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/7-24%20Schedule.md)
-- [0724 Review](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727-Review.md)
-- [0727 Plan](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0727%20Schedule.md)
-- [0730 Review](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/0730%20Review.md)
 
 # Others
 ## Markdown
