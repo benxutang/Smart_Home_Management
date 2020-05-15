@@ -1,8 +1,8 @@
-## Our smart home on final showcase
+## Our Smart Home on Final Showcase
 
 ![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Final%20Showcase/img/Final_Showcase.jpg)
 
-## Parts of the house
+## Parts of The House
 - Front cam for smart face recoginizing door lock
 ![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Final%20Showcase/img/Smart_door_lock_cam.jpg)
 
