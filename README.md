@@ -14,8 +14,8 @@
 ## VLOG
 https://www.youtube.com/watch?v=MBvdvOWpxrw&t=4s&ab_channel=universalmusichk
 
-## PRIZE
-Second Prize
+## SECOND PRIZE
+
 ![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/prize.JPG)
 
 # History Summary of Teamwork
