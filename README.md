@@ -11,6 +11,13 @@
 - LUO YANG 罗洋（电子科技大学）
 - QING BOWEN 卿博文（南方科技大学）
 
+## VLOG
+https://www.youtube.com/watch?v=MBvdvOWpxrw&t=4s&ab_channel=universalmusichk
+
+## PRIZE
+Second Prize
+![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Year%201%202nd%20(Guard%20your%20house).pdf)
+
 # History Summary of Teamwork
 
 - [0724 Schedule](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Project%20Management/7-24%20Schedule.md)
