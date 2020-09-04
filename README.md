@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=MBvdvOWpxrw&t=4s&ab_channel=universalmusichk
 
 ## PRIZE
 Second Prize
-![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/Year%201%202nd%20(Guard%20your%20house).pdf)
+![](https://github.com/TANGBEN7/Smart_Home_Management/blob/master/prize.jpg)
 
 # History Summary of Teamwork
 
